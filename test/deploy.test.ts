@@ -148,6 +148,7 @@ describe("deploy", () => {
       expect(deployFlags).toContain("deploy");
       expect(deployFlags).toContain("--only");
       expect(deployFlags).toContain("hosting");
+      expect(deployFlags).toContain("functions");
     });
   });
 });
